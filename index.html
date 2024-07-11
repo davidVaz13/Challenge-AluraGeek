@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alura Geek</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+    </head>
+
+    <body>
+        <header class="barra">
+            <div class="barra__img">
+                <img src="./assets/icon__gesto.png" alt="Imagem com o famoso gesto de Star trek, que são os dedos da mão dividida">
+            </div>
+            <div class="barra__title">
+                <h1>AluraGeek</h1>
+            </div>
+        </header>
+
+        <main class="principal">
+            <section class="produtos">
+                <h1>Meus Produtos:</h1>
+                <ul class="produtos__container" alt="Produtos" data-lista>
+                    
+                </ul>
+                <!-- <div class="card">
+                    <img src="caminho/para/imagem" alt="Imagen del producto">
+                    <div class="card-container--info">
+                        <p>Nome do produto</p>
+                        <div class="card-container--value">
+                            <p>Precio: $XX.XX</p>
+                            <img src="caminho/para/icono-de-eliminacion" alt="Ícono de eliminación">
+                        </div>
+                    </div>
+                </div> -->
+
+            </section>
+
+            <section class="form">
+                <h1>Adicionar Produto: </h1>
+                <form class="form__corpo" data-formulario>
+                    <input name="nome" class="form__inputs" id="nome" placeholder="Nome ..." data-nome required>
+                    <input name="preco" class="form__inputs" id="preco" placeholder="Valor ..." data-preco required>
+                    <input name="imagem" class="form__inputs" id="imagem" placeholder="Imagem ..." data-imagem required>
+                    <div class="form__botoes">
+                        <button class="form__botoes__guardar" type="submit"> Guardar </button>
+                        <button class="form__botoes__limpar" type="button"> Limpar </button>
+                    </div>
+                </form>
+
+            </div>
+
+        <section class="footer">
+            <div class="footer__rodape">
+                <div class="barra__img">
+                    <img src="./assets/icon__gesto.png" alt="Imagem com o famoso gesto de Star trek, que são os dedos da mão dividida">
+                </div>
+                <div class="barra__title">
+                    <h2>AluraGeek</h2>
+                </div>
+                <p>Desenvolvido por David Vaz</p>
+                <p style="text-align: center;">2024</p>
+            </div>
+        </section>
+            
+
+        </main>
+        <script src="./js/main.js" type="module"></script>
+        <script src="./js/mostraProduto.js" type="module"></script>
+        <script src="./js/adicionaProduto.js" type="module"></script>
+    </body>
+
+</html>
